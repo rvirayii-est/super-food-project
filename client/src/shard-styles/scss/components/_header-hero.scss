@@ -1,0 +1,127 @@
+.header-hero {
+  .heading {
+    height: 100vh;
+    margin-left: 5rem;
+    margin-right: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: transparent;
+    z-index: 2;
+  }
+
+  h1 {
+    font-size: 4rem;
+    position: relative;
+    letter-spacing: 0.1rem;
+  }
+  
+  .row-full-height {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .img-container {
+    // overflow: hidden;
+    position: relative;
+    
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+@include respond(xs) { 
+  .header-hero {
+    .heading {
+      height: 100vh;
+      margin-left: 1rem;
+      margin-right: -1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: transparent;
+      z-index: 2;
+    }
+    .img-container {
+      img {
+        opacity: 0.6;
+      }
+    }
+  
+  }
+  
+}
+@include respond(sm) { 
+  .header-hero {
+    .heading {
+      height: 100vh;
+      margin-left: 1rem;
+      margin-right: -1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: transparent;
+      z-index: 2;
+    }
+    .img-container {
+      img {
+        opacity: 0.6;
+      }
+    }
+  
+  }
+  
+}
+@include respond(md) { 
+  .header-hero {
+    .heading {
+      height: 100vh;
+      margin-left: 1rem;
+      margin-right: -1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: transparent;
+      z-index: 2;
+    }
+    .img-container {
+      img {
+        opacity: 0.6;
+      }
+    }
+  
+  }
+  
+}
+@include respond(lg) { 
+  .header-hero {
+    .heading {
+      height: 100vh;
+      margin-left: 1rem;
+      margin-right: -1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: transparent;
+      z-index: 2;
+    }
+    .img-container {
+      img {
+        opacity: 0.6;
+      }
+    }
+  
+  }
+  
+}

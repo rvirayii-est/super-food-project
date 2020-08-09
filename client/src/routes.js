@@ -1,9 +1,8 @@
-import React from "react";
-import { Redirect } from "react-router-dom";
+// import React from "react";
+// import { Redirect } from "react-router-dom";
 
 // Layout Types
-import { DefaultLayout } from "./layouts";
-import { DashboardLayout } from "./layouts";
+import { DefaultLayout, DashboardLayout, LandingLayout } from "./layouts";
 
 // Route Views
 import BlogOverview from "./views/BlogOverview";
@@ -21,13 +20,18 @@ import SignUpView from "./views/signup.views";
 
 import MapSampleView from "./views/admin/map-sample.views";
 
+// site
+import LandingPage from "./views/site/landing-page.component";
+
 export default [
+    // SECTION SITE
   {
     path: "/",
     exact: true,
-    layout: DashboardLayout,
-    component: () => <Redirect to="/dashboard" />
+    layout: LandingLayout,
+    component: LandingPage
   },
+  // SECTION ADMIN
   {
     path: "/dashboard",
     layout: DashboardLayout,
@@ -95,4 +99,5 @@ export default [
     layout: DefaultLayout,
     component: BlogPosts
   }
+
 ];

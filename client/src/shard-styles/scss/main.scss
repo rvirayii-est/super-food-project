@@ -19,6 +19,9 @@
 // Core
 @import "variables";
 
+// custom mixins
+@import "mixins";
+
 // Components
 @import "reboot";
 @import "buttons";
@@ -55,3 +58,6 @@
 @import "components/error";
 @import "components/or-line";
 @import "components/map-sample";
+@import "components/navbar";
+@import "components/header-hero";
+@import "components/header-address";
