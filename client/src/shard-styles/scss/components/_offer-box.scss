@@ -1,0 +1,20 @@
+.offer-content {
+  color: $fiord-blue;
+  
+  .icon {
+    font-size: 5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+}
+
+.offers-container {
+  margin-top: -13rem;
+}

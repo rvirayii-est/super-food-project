@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "./",
   "dependencies": {
+    "@iconify/icons-bx": "^1.0.3",
+    "@iconify/icons-clarity": "^1.0.0",
+    "@iconify/icons-mdi": "^1.0.129",
     "camelize": "^1.0.0",
     "chart.js": "^2.7.3",
     "classnames": "^2.2.6",

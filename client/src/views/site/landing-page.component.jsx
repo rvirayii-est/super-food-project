@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // components
 import SiteNavbar from "../../components/site/navbar.component";
 import HeaderHero from "../../components/site/header-hero.component";
+import LandingSectionTwo from "../../components/site/section-two.component";
 
 const LandingPage = () => {
   // TODO add reducer for this
@@ -26,7 +27,7 @@ const LandingPage = () => {
         dropdownOpen={dropdownOpen}
       />
       <HeaderHero />
-      <div className='sticky-top'>dfgdfg</div>
+      <LandingSectionTwo />
     </div>
   );
 };
