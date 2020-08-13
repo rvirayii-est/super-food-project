@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import SiteNavbar from "../../components/site/navbar.component";
 import HeaderHero from "../../components/site/header-hero.component";
 import LandingSectionTwo from "../../components/site/section-two.component";
+import LandingSectionThree from "../../components/site/section-three.component";
 
 const LandingPage = () => {
   // TODO add reducer for this
@@ -19,7 +20,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div style={{ overflow: 'hidden', height: '3200px'}}>
+    <div style={{ overflow: 'hidden'}}>
       <SiteNavbar
         toggleDropdown={toggleDropdown}
         collapseOpen={collapseOpen}
@@ -28,6 +29,7 @@ const LandingPage = () => {
       />
       <HeaderHero />
       <LandingSectionTwo />
+      <LandingSectionThree />
     </div>
   );
 };

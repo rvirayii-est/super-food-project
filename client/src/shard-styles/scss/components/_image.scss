@@ -1,0 +1,36 @@
+.section-three-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+  &-container {
+    width: 20rem;
+    margin-right: 2rem;
+    position: relative;
+    z-index: 2;
+    
+    .img-frame {
+      border: 1px solid $fiord-blue;
+      position: absolute;
+      top: 3rem;
+      left: -3rem;
+      width: 20rem;
+      height: 18rem;
+      z-index: -1;
+    }
+  }
+
+  &-heading {
+    color: $accent-color;
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+
+  &-paragraph {
+    color: $fiord-blue;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin-top: 2rem;
+  }
+}

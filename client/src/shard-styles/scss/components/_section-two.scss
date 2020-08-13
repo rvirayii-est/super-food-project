@@ -4,4 +4,59 @@
 
 .section-two {
   margin-top: 30rem;
+
+
+  &-content {
+    z-index: 2;
+  }
+
+  &-heading {
+    font-size: 4rem;
+    line-height: 8rem;
+  }
+
+  &-subheading {
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+
+  &-paragraphs {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $fiord-blue;
+  }
+}
+
+.chef-container {
+  width: 100%;
+  height: auto;
+}
+
+@include respond(xs) { 
+
+  .section-two {
+    margin-top: 30rem;
+  
+  
+    &-content {
+      z-index: 2;
+    }
+  
+    &-heading {
+      margin-top: 2rem;
+      font-size: 4rem;
+      line-height: 3rem;
+    }
+  
+    &-subheading {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+  
+    &-paragraphs {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+  }
+ 
 }
