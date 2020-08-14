@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://Admin:admin@food-delivery-app-clust.7m9bt.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "cd1b5fc3b5b0064ac863890f1e63dcc872008ac63f6b3114b98799d4548dfee70ae8f9f411b9925ff65f389ea9e6552ad66c6a958050b0d13fe91736c3321eb2"
+}
+
