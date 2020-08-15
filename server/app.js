@@ -1,11 +1,10 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
+const path = require("path");
 
 //const cors = require("cors");
 //const Seed = require("./seed");
-
 
 const PORT = process.env.PORT;
 
@@ -23,6 +22,14 @@ connectDB();
 app.use("/api/users", require("./routes/api/users"));
 app.use("/api/auth", require("./routes/api/auth"));
 
+// Serve static assets in production
+if (process.env.NODE_ENV === "production") {
+	//Set static folder
+	app.use(express.static("client/build"));
+	app.get("*", (req, res) => {
+		res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+	});
+}
 //App listen
 app.listen(PORT || 3000, () => {
 	console.log(`Server started on port`);
