@@ -41,7 +41,11 @@ const SiteNavbar = ({
       <Collapse open={collapseOpen} navbar>
         <Nav navbar className="ml-auto">
           <Link className='nav-link' to='/register'>Create an account</Link>
-        <Button className='btn-block' theme="accent">LOGIN</Button>
+            <Button className='btn-block' theme="accent">
+          <Link to='/login' style={{color: '#000'}}>
+              LOGIN
+          </Link>
+            </Button>
         </Nav>
       </Collapse>
     </Navbar>

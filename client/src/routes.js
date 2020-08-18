@@ -17,6 +17,7 @@ import UserView from "./views/admin/users.views";
 import DashboardView from "./views/admin/dashboard.views";
 import DeliveryView from "./views/admin/deliveries.views";
 import SignUpView from "./views/signup.views";
+import LoginView from "./views/Login.views";
 
 import MapSampleView from "./views/admin/map-sample.views";
 
@@ -62,8 +63,11 @@ export default [
     layout: DefaultLayout,
     component: SignUpView
   },
-  // INSERT LOGIN HERE
-
+  {
+    path: "/login",
+    layout: DefaultLayout,
+    component: LoginView
+  },
   {
     path: "/blog-overview",
     layout: DefaultLayout,
