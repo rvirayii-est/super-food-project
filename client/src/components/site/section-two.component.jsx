@@ -20,36 +20,7 @@ const LandingSectionTwo = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
         </Col>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam iure ut facilis rerum harum ullam temporibus fugiat, magnam dolorem! Dicta eos at dolorum deleniti cum. Commodi iste magni dolores?
-
       </Row>
     </Container>
   )

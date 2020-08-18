@@ -17,8 +17,8 @@ const RegisterAccountDetails = ({ title }) => (
       <ListGroupItem className="p-3">
         <Row>
           <Col md='12'>
-          <Button className='btn-block' theme="danger">Sign up with Google</Button>
-          <Button className='btn-block' theme="primary">Sign up with Facebook</Button>
+            <Button className='btn-block' theme="danger">Sign up with Google</Button>
+            <Button className='btn-block' theme="primary">Sign up with Facebook</Button>
           </Col>
           <Col md='12'>
             <OrGroup />

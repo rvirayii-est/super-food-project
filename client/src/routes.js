@@ -17,14 +17,15 @@ import UserView from "./views/admin/users.views";
 import DashboardView from "./views/admin/dashboard.views";
 import DeliveryView from "./views/admin/deliveries.views";
 import SignUpView from "./views/signup.views";
-
+//login
+import Login from "./views/Login.views";
 import MapSampleView from "./views/admin/map-sample.views";
 
 // site
 import LandingPage from "./views/site/landing-page.component";
 
 export default [
-    // SECTION SITE
+  // SECTION SITE
   {
     path: "/",
     exact: true,
@@ -63,7 +64,11 @@ export default [
     component: SignUpView
   },
   // INSERT LOGIN HERE
-
+  {
+    path: "/login",
+    layout: DefaultLayout,
+    component: Login
+  },
   {
     path: "/blog-overview",
     layout: DefaultLayout,

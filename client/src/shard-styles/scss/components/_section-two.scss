@@ -1,7 +1,101 @@
 .bg-accent {
   background-color: #FEF1B8;
 }
+/*scss for footer*/
+.bg-footer
+{
+  background-color: #363a45;
+}
+.footer
+{
+  color: white;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+}
+.sub-footer
+{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+.socialmedia-buttons
+{
+  border-style: none;
+  margin: 1%;
+  background-color: none;
+  color: none;
+}
+.cuisines{
+  margin: 0;
+  padding: 0; 
+  list-style: none; 
+  font-size: 16px;
+  -webkit-columns: 4; 
+  -moz-columns: 4; 
+  columns: 4; 
+  column-width: auto; 
+  column-count: 4;
+}
+.footer-sub-content
+{
+  font-weight: bold;
+}
+hr
+{
+  margin: 0;
+  padding: 0;
+  border-width: 0.1%;
+  background-color: #363a45;
+}
 
 .section-two {
   margin-top: 30rem;
+}
+
+/*
+  scss for download
+*/
+.download-container-fluid
+{
+  padding-left: 5%;
+}
+.btn_border
+{
+  border-style: none;
+  padding: 2%;
+  background-color: black;
+  color: white;
+}
+ 
+  
+
+  
+ 
+/*
+  scss for subscribe
+*/
+.space-bottom-5
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.subscribe-main-heading
+{
+  font-family: Helvetica;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+.subscribe-sub-heading
+{
+  font-family: 'Times New Roman';
+}
+.subscribe-input-height-10
+{
+  height: 100%;
+}
+.subscribe-input-position-center
+{
+  position: relative;
+  align-items: center;
 }
