@@ -4,6 +4,9 @@ import { Container, Row, Col } from 'shards-react';
 // components
 import Offers from './offers.component';
 
+// svg
+//import { ReactComponent as ChefSVG } from '../../assets/chef.svg';
+
 const LandingSectionTwo = () => {
   return (
     <Container fluid className='section-two'>
