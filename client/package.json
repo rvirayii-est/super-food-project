@@ -1,14 +1,31 @@
 {
-  "name": "project_renoex",
-  "version": "0.1.0",
+  "name": "client",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "@iconify/icons-bx": "^1.0.3",
+    "@iconify/icons-clarity": "^1.0.0",
+    "@iconify/icons-mdi": "^1.0.129",
+    "camelize": "^1.0.0",
+    "chart.js": "^2.7.3",
+    "classnames": "^2.2.6",
+    "cross-env": "^5.2.0",
+    "dateformat": "^3.0.3",
+    "flux": "^3.1.3",
+    "geojson-path-finder": "^1.5.2",
+    "leaflet": "^1.6.0",
+    "lodash.find": "^4.6.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-ga": "^2.5.6",
+    "react-leaflet": "^2.7.0",
+    "react-quill": "^1.3.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "shards-react": "^1.0.0",
+    "shortid": "^2.2.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,16 +36,15 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@iconify/icons-gridicons": "^1.0.6",
+    "@iconify/react": "^1.1.3",
+    "gh-pages": "^3.1.0"
   }
 }

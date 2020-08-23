@@ -1,0 +1,28 @@
+// Or Line component
+// Used in: SignUp and Login Component
+
+.or-line {
+  height: 1px;
+  width: 90%;
+  border-radius: 3rem;
+  margin: 0.8rem 0;
+  background-color: $fiord-blue;
+}
+
+.or-text {
+  margin: 0 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+// .line {
+//   background-color: ${mainTint};
+//   width:90%;
+//   height: 1px;
+//   border-radius: 5rem;
+//   margin: 1rem 0;
+// }
+// .or {
+//   font-size: 1.5rem;
+//   margin: 0 2rem;
+// }
