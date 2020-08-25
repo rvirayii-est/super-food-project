@@ -25,7 +25,7 @@ const Subscribe = () => {
                                 />
                             </Col>
                             <Col md="3">
-                                <Button theme="accent" type="button" className="form-group">SUBSCRIBE</Button>
+                                <Button theme="accent" type="button" className="form-group xs_button">SUBSCRIBE</Button>
                             </Col>
                         </Row>
                     </Form>

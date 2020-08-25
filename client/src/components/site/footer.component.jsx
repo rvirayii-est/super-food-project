@@ -4,9 +4,9 @@ import { Container, Row, Col, } from 'shards-react';
 
 const Footer = () => {
     return (
-        <Container fluid className=''>
+        <Container fluid className="">
             <Row>
-                <Col className="sub-footer" lg="3" xl="3" md="3" sm="3" xs="3">
+                <Col className="sub-footer footer-section" lg="3" xl="3" md="12" sm="12" xs="12">
                     <h4>FoodKart</h4>
                     <p className="footer-sub-content">Why starve when you have us</p>
                     <hr />
@@ -34,7 +34,8 @@ const Footer = () => {
                         </i>
                     </button>
                 </Col>
-                <Col className="sub-footer" lg="5" xl="5" md="5" sm="5" xs="5">
+                {/* lg="3" xl="3" md="12" sm="12" xs="12" */}
+                <Col className="sub-footer" lg="5" xl="5" md="12" sm="12" xs="12">
                     <h4>Popular Cuisines</h4>
                     <ul className="cuisines">
                         <li>Burgers</li>

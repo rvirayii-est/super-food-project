@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import {
   Card,
   CardHeader,
@@ -13,9 +14,11 @@ import {
   FormSelect,
   FormTextarea,
   Button
+
 } from "shards-react";
 
 const UserAccountDetails = ({ title }) => (
+
   <Card small className="mb-4">
     <CardHeader className="border-bottom">
       <h6 className="m-0">{title}</h6>
@@ -33,7 +36,7 @@ const UserAccountDetails = ({ title }) => (
                     id="feFirstName"
                     placeholder="First Name"
                     value="Sierra"
-                    onChange={() => {}}
+                    onChange={() => { }}
                   />
                 </Col>
                 {/* Last Name */}
@@ -43,7 +46,7 @@ const UserAccountDetails = ({ title }) => (
                     id="feLastName"
                     placeholder="Last Name"
                     value="Brooks"
-                    onChange={() => {}}
+                    onChange={() => { }}
                   />
                 </Col>
               </Row>
@@ -56,7 +59,7 @@ const UserAccountDetails = ({ title }) => (
                     id="feEmail"
                     placeholder="Email Address"
                     value="sierra@example.com"
-                    onChange={() => {}}
+                    onChange={() => { }}
                     autoComplete="email"
                   />
                 </Col>
@@ -68,7 +71,7 @@ const UserAccountDetails = ({ title }) => (
                     id="fePassword"
                     placeholder="Password"
                     value="EX@MPL#P@$$w0RD"
-                    onChange={() => {}}
+                    onChange={() => { }}
                     autoComplete="current-password"
                   />
                 </Col>
@@ -79,7 +82,7 @@ const UserAccountDetails = ({ title }) => (
                   id="feAddress"
                   placeholder="Address"
                   value="1234 Main St."
-                  onChange={() => {}}
+                  onChange={() => { }}
                 />
               </FormGroup>
               <Row form>
@@ -89,7 +92,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feCity"
                     placeholder="City"
-                    onChange={() => {}}
+                    onChange={() => { }}
                   />
                 </Col>
                 {/* State */}
@@ -106,7 +109,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feZipCode"
                     placeholder="Zip"
-                    onChange={() => {}}
+                    onChange={() => { }}
                   />
                 </Col>
               </Row>

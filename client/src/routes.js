@@ -23,14 +23,29 @@ import MapSampleView from "./views/admin/map-sample.views";
 
 // site
 import LandingPage from "./views/site/landing-page.component";
-
+import AboutPage from "./views/site/about-page.component";
 export default [
-    // SECTION SITE
+  // SECTION SITE
   {
     path: "/",
     exact: true,
     layout: LandingLayout,
     component: LandingPage
+  },
+  {
+    path: "/profile",
+    layout: DashboardLayout,
+    component: UserProfileLite
+  },
+  {
+    path: "/about",
+    layout: LandingLayout,
+    component: AboutPage
+  },
+  {
+    path: "/merchant-profile",
+    layout: DashboardLayout,
+    component: UserProfileLite
   },
   // SECTION ADMIN
   {
@@ -102,6 +117,6 @@ export default [
     path: "/blog-posts",
     layout: DefaultLayout,
     component: BlogPosts
-  }
+  },
 
 ];
