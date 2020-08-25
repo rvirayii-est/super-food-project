@@ -16,8 +16,8 @@ const LandingSectionTwo = () => {
         </Col>
         <Col className="section-two-main-content bg-accent pb-5" lg="12" xl="12" md="12" sm="12" xs="12">
           <Row className='m-sm-5 m-md-3 h-100'>
-            <Col className='chef-container'  lg="5" xl="5" md="5" sm="12" xs="12">
-            <ChefSVG className='' />
+            <Col className='chef-container' lg="5" xl="5" md="5" sm="12" xs="12">
+              <ChefSVG className='' />
             </Col>
             <Col className='d-flex  align-items-center' lg="7" xl="7" md="7" sm="12" xs="12">
               <div className='section-two-content mx-sm-3'>

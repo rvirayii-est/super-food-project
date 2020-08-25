@@ -22,11 +22,6 @@ const Download = () => {
                         <span className="btn__text"> Download on the <b>Play Store</b></span>
                     </button>
 
-
-
-
-
-
                     {/* <div className="flex social-btns">
                         <button className="app-btn blu flex vert" href="http:apple.com">
                             <i class="fab fa-apple"></i>
@@ -39,7 +34,6 @@ const Download = () => {
                         </button>
                     </div> */}
                 </Col>
-
 
             </Row>
         </Container >

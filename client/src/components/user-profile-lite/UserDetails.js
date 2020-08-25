@@ -64,8 +64,8 @@ UserDetails.defaultProps = {
     name: "John Doe",
     avatar: require("./../../images/avatars/0.jpg"),
     jobTitle: "Project Manager",
-    performanceReportTitle: "Workload",
-    performanceReportValue: 74,
+    performanceReportTitle: "Profile",
+    performanceReportValue: 70,
     metaTitle: "Description",
     metaValue:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?"
