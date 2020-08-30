@@ -8,6 +8,7 @@ import RegisterAccountDetails from "../components/registration/register.componen
 
 const SignUpView = () => (
   <Container fluid className="bg-white">
+    <Container>
     <Row>
       <Col xl="8" lg="8" md="8" sm="12" xs="12">
         <SignUpSVG />
@@ -17,6 +18,8 @@ const SignUpView = () => (
         <RegisterAccountDetails />
       </Col>
     </Row>
+
+    </Container>
   </Container>
 );
 
