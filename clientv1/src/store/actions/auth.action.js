@@ -1,7 +1,6 @@
-import API from "store/api";
-
+import API from "../api";
 import { REGISTER_SUCCESS, REGISTER_FAILED, USER_LOADED, AUTH_ERROR, LOGIN_FAILED, LOGIN_SUCCESS } from "./types.action";
-import setAuthToken from "store/utilities/setAuthToken";
+import setAuthToken from "../utilities/setAuthToken";
 
 // register
 export const register = ({ name, email, password }) => async dispatch => {
@@ -15,10 +14,9 @@ export const register = ({ name, email, password }) => async dispatch => {
 
   try {
     const res = await API.post("users", body, config);
-
     dispatch({
       type: REGISTER_SUCCESS,
-      payload: res.data  
+      payload: res.data
     });
 
     dispatch({

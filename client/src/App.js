@@ -1,51 +1,27 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import routes from "./routes";
-import withTracker from "./withTracker";
+import React from 'react';
 
 // redux
-import { Provider } from "react-redux";
-import store from "./store/store";
+import { Provider } from 'react-redux';
+import store from 'store/store';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-// import "./shard-styles/shards-dashboards.css";
-import "./shard-styles/scss/main.scss";
+// route
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import AuthRoute from 'routes/AuthRoute';
 
-// redux
-import { loadUser } from "./store/actions/auth.action";
-import setAuthToken from "./store/utilities/setAuthToken";
+// pages
+// customer
+import SignUp from 'pages/customer/auth/SignUp';
 
-if (localStorage.token) {
-  setAuthToken(localStorage.token);
-}
-
-export default () => {
-  useEffect(() => {
-    store.dispatch(loadUser);
-  }, []);
+function App() {
   return (
     <Provider store={store}>
-      <Router basename={process.env.REACT_APP_BASENAME || ""}>
-        <div>
-          {routes.map((route, index) => {
-            return (
-              <Route
-                key={index}
-                path={route.path}
-                exact={route.exact}
-                component={withTracker(props => {
-                  return (
-                    <route.layout {...props}>
-                      <route.component {...props} />
-                    </route.layout>
-                  );
-                })}
-              />
-            );
-          })}
-        </div>
+      <Router>
+        <Switch>
+          <AuthRoute exact path="/register" component={SignUp} />
+        </Switch>
       </Router>
     </Provider>
   );
-};
+}
+
+export default App;

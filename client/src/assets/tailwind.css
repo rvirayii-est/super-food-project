@@ -1,0 +1,56 @@
+/* In your CSS */
+:root {
+  --color-primary: #412D18;
+  --color-accent: #FDBD10;
+  /* ... */
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* CUSTOM STYLES */
+
+/* Buttons */
+.btn-category-facebook {
+  @apply bg-blue-700;
+}
+
+.btn-category-google {
+  @apply bg-red-500;
+}
+
+.btn-category-accent {
+  @apply bg-accent;
+}
+
+/* .btn-category-accent:hover,
+.btn-category-facebook:hover,
+.btn-category-google:hover,
+.btn-category-accent:focus,
+.btn-category-facebook:focus,
+.btn-category-google:focus {
+ */
+}
+
+/* Form Inputs */
+input[type="text"]:focus-within ~ label,
+input[type="text"]:not(:placeholder-shown) ~ label,
+input[type="email"]:focus-within ~ label,
+input[type="email"]:not(:placeholder-shown) ~ label,
+input[type="password"]:focus-within ~ label,
+input[type="password"]:not(:placeholder-shown) ~ label {
+  @apply transform;
+  @apply scale-50;
+  @apply -translate-x-2;
+  transform: translateY(-2rem);
+  @apply text-accent;
+}
+
+input[type="text"]:focus-within ~ label,
+input[type="email"]:focus-within ~ label,
+input[type="password"]:focus-within ~ label {
+  @apply text-accent;
+}

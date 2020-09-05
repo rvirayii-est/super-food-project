@@ -5,7 +5,7 @@ import {
   LOGIN_FAILED,
   USER_LOADED,
   AUTH_ERROR
-} from "store/actions/types.action";
+} from "../actions/types.action";
 
 const INITIAL_STATE = {
   token: localStorage.getItem("token"),
