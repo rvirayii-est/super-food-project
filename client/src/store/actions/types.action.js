@@ -9,3 +9,7 @@ export const LOGIN_FAILED = "LOGIN_FAILED";
 // auth
 export const USER_LOADED = "USER_LOADED";
 export const AUTH_ERROR = "AUTH_ERROR";
+
+
+// toggle
+export const TOGGLE_CUSTOMER_NAVBAR = 'TOGGLE_CUSTOMER_NAVBAR';

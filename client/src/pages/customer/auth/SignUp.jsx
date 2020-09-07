@@ -137,7 +137,7 @@ const SignUp = ({ register, isAuthenticated }) => {
         </form>
         <div className="text-xl text-primary mt-4">
           Already have an account?{" "}
-          <Link to='/' className="text-accent hover:text-accentLight transition duration-300 ease-in-out">
+          <Link to='/login' className="text-accent hover:text-accentLight transition duration-300 ease-in-out">
             Login Here
           </Link>
         </div>

@@ -33,7 +33,7 @@
 .btn-category-facebook:focus,
 .btn-category-google:focus {
  */
-}
+/* } */
 
 /* Form Inputs */
 input[type="text"]:focus-within ~ label,
@@ -53,4 +53,32 @@ input[type="text"]:focus-within ~ label,
 input[type="email"]:focus-within ~ label,
 input[type="password"]:focus-within ~ label {
   @apply text-accent;
+}
+
+.search-address-input:focus-within ~ label,
+.search-address-input:not(:placeholder-shown) ~ label {
+  @apply transform;
+  @apply scale-50;
+  @apply -translate-x-2;
+  transform: translateY(-2.4rem);
+  @apply text-accent;
+}
+
+/* Customer Navbar Dropdown */
+.dropdown-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.dropdown-exit {
+  opacity: 1;
+}
+.dropdown-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
 }
