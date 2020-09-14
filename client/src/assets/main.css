@@ -16443,6 +16443,10 @@ video {
   z-index: -1;
 }
 
+.-z-50 {
+  z-index: -9999px;
+}
+
 .gap-0 {
   grid-gap: 0;
   gap: 0;
@@ -19130,6 +19134,16 @@ video {
   background-color: var(--color-accent);
 }
 
+/* .btn-category-accent:hover,
+.btn-category-facebook:hover,
+.btn-category-google:hover,
+.btn-category-accent:focus,
+.btn-category-facebook:focus,
+.btn-category-google:focus {
+ */
+
+/* } */
+
 /* Form Inputs */
 
 input[type="text"]:focus-within ~ label,
@@ -19157,6 +19171,46 @@ input[type="text"]:focus-within ~ label,
 input[type="email"]:focus-within ~ label,
 input[type="password"]:focus-within ~ label {
   color: var(--color-accent);
+}
+
+.search-address-input:focus-within ~ label,
+.search-address-input:not(:placeholder-shown) ~ label {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  --transform-scale-x: .5;
+  --transform-scale-y: .5;
+  --transform-translate-x: -0.5rem;
+  transform: translateY(-2.4rem);
+  color: var(--color-accent);
+}
+
+/* Customer Navbar Dropdown */
+
+.dropdown-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.dropdown-exit {
+  opacity: 1;
+}
+
+.dropdown-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
 }
 
 @media (min-width: 640px) {
@@ -35016,6 +35070,10 @@ input[type="password"]:focus-within ~ label {
 
   .sm\:-z-1 {
     z-index: -1;
+  }
+
+  .sm\:-z-50 {
+    z-index: -9999px;
   }
 
   .sm\:gap-0 {
@@ -53514,6 +53572,10 @@ input[type="password"]:focus-within ~ label {
     z-index: -1;
   }
 
+  .md\:-z-50 {
+    z-index: -9999px;
+  }
+
   .md\:gap-0 {
     grid-gap: 0;
     gap: 0;
@@ -72010,6 +72072,10 @@ input[type="password"]:focus-within ~ label {
     z-index: -1;
   }
 
+  .lg\:-z-50 {
+    z-index: -9999px;
+  }
+
   .lg\:gap-0 {
     grid-gap: 0;
     gap: 0;
@@ -90504,6 +90570,10 @@ input[type="password"]:focus-within ~ label {
 
   .xl\:-z-1 {
     z-index: -1;
+  }
+
+  .xl\:-z-50 {
+    z-index: -9999px;
   }
 
   .xl\:gap-0 {

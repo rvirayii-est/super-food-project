@@ -79,6 +79,7 @@ const Navbar = ({ toggleCustomerNavbar, open }) => {
 
 Navbar.propTypes = {
   open: PropTypes.bool,
+  toggleCustomerNavbar: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({

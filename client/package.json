@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@iconify/icons-bx": "^1.0.3",
+    "@iconify/icons-dashicons": "^1.0.11",
     "@iconify/react": "^1.1.3",
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2",
