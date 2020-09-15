@@ -24,10 +24,6 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
 
-      // custom
-      primary: "var(--color-primary)",
-      accent: "var(--color-accent)",
-      accentLight: "#995A07", 
       black: "#000",
       white: "#fff",
 
@@ -141,6 +137,11 @@ module.exports = {
         800: "#97266d",
         900: "#702459",
       },
+
+      // custom
+      primary: "var(--color-primary)",
+      accent: "var(--color-accent)",
+      accentLight: "var(--color-accentLight", 
     },
     spacing: {
       px: "1px",
