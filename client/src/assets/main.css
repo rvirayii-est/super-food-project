@@ -3,7 +3,6 @@
 :root {
   --color-primary: #412D18;
   --color-accent: #FDBD10;
-  --color-accentLight: #FFF6CE;
   /* ... */
 }
 
@@ -1703,9 +1702,7 @@ video {
 }
 
 .divide-accentLight > :not(template) ~ :not(template) {
-  --divide-opacity: 1;
-  border-color: #995A07;
-  border-color: rgba(153, 90, 7, var(--divide-opacity));
+  border-color: var(--color-accentLight);
 }
 
 .divide-solid > :not(template) ~ :not(template) {
@@ -2397,9 +2394,7 @@ video {
 }
 
 .bg-accentLight {
-  --bg-opacity: 1;
-  background-color: #995A07;
-  background-color: rgba(153, 90, 7, var(--bg-opacity));
+  background-color: var(--color-accentLight);
 }
 
 .hover\:bg-transparent:hover {
@@ -2971,9 +2966,7 @@ video {
 }
 
 .hover\:bg-accentLight:hover {
-  --bg-opacity: 1;
-  background-color: #995A07;
-  background-color: rgba(153, 90, 7, var(--bg-opacity));
+  background-color: var(--color-accentLight);
 }
 
 .focus\:bg-transparent:focus {
@@ -3545,9 +3538,7 @@ video {
 }
 
 .focus\:bg-accentLight:focus {
-  --bg-opacity: 1;
-  background-color: #995A07;
-  background-color: rgba(153, 90, 7, var(--bg-opacity));
+  background-color: var(--color-accentLight);
 }
 
 .bg-none {
@@ -4067,8 +4058,8 @@ video {
 }
 
 .from-accentLight {
-  --gradient-from-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-from-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .via-transparent {
@@ -4552,8 +4543,8 @@ video {
 }
 
 .via-accentLight {
-  --gradient-via-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-via-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .to-transparent {
@@ -4941,7 +4932,7 @@ video {
 }
 
 .to-accentLight {
-  --gradient-to-color: #995A07;
+  --gradient-to-color: var(--color-accentLight);
 }
 
 .hover\:from-transparent:hover {
@@ -5425,8 +5416,8 @@ video {
 }
 
 .hover\:from-accentLight:hover {
-  --gradient-from-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-from-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-transparent:hover {
@@ -5910,8 +5901,8 @@ video {
 }
 
 .hover\:via-accentLight:hover {
-  --gradient-via-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-via-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .hover\:to-transparent:hover {
@@ -6299,7 +6290,7 @@ video {
 }
 
 .hover\:to-accentLight:hover {
-  --gradient-to-color: #995A07;
+  --gradient-to-color: var(--color-accentLight);
 }
 
 .focus\:from-transparent:focus {
@@ -6783,8 +6774,8 @@ video {
 }
 
 .focus\:from-accentLight:focus {
-  --gradient-from-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-from-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-transparent:focus {
@@ -7268,8 +7259,8 @@ video {
 }
 
 .focus\:via-accentLight:focus {
-  --gradient-via-color: #995A07;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+  --gradient-via-color: var(--color-accentLight);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
 }
 
 .focus\:to-transparent:focus {
@@ -7657,7 +7648,7 @@ video {
 }
 
 .focus\:to-accentLight:focus {
-  --gradient-to-color: #995A07;
+  --gradient-to-color: var(--color-accentLight);
 }
 
 .bg-opacity-0 {
@@ -8369,9 +8360,7 @@ video {
 }
 
 .border-accentLight {
-  --border-opacity: 1;
-  border-color: #995A07;
-  border-color: rgba(153, 90, 7, var(--border-opacity));
+  border-color: var(--color-accentLight);
 }
 
 .hover\:border-transparent:hover {
@@ -8943,9 +8932,7 @@ video {
 }
 
 .hover\:border-accentLight:hover {
-  --border-opacity: 1;
-  border-color: #995A07;
-  border-color: rgba(153, 90, 7, var(--border-opacity));
+  border-color: var(--color-accentLight);
 }
 
 .focus\:border-transparent:focus {
@@ -9517,9 +9504,7 @@ video {
 }
 
 .focus\:border-accentLight:focus {
-  --border-opacity: 1;
-  border-color: #995A07;
-  border-color: rgba(153, 90, 7, var(--border-opacity));
+  border-color: var(--color-accentLight);
 }
 
 .border-opacity-0 {
@@ -13315,9 +13300,7 @@ video {
 }
 
 .placeholder-accentLight::placeholder {
-  --placeholder-opacity: 1;
-  color: #995A07;
-  color: rgba(153, 90, 7, var(--placeholder-opacity));
+  color: var(--color-accentLight);
 }
 
 .focus\:placeholder-transparent:focus::placeholder {
@@ -13889,9 +13872,7 @@ video {
 }
 
 .focus\:placeholder-accentLight:focus::placeholder {
-  --placeholder-opacity: 1;
-  color: #995A07;
-  color: rgba(153, 90, 7, var(--placeholder-opacity));
+  color: var(--color-accentLight);
 }
 
 .placeholder-opacity-0::placeholder {
@@ -14777,9 +14758,7 @@ video {
 }
 
 .text-accentLight {
-  --text-opacity: 1;
-  color: #995A07;
-  color: rgba(153, 90, 7, var(--text-opacity));
+  color: var(--color-accentLight);
 }
 
 .hover\:text-transparent:hover {
@@ -15351,9 +15330,7 @@ video {
 }
 
 .hover\:text-accentLight:hover {
-  --text-opacity: 1;
-  color: #995A07;
-  color: rgba(153, 90, 7, var(--text-opacity));
+  color: var(--color-accentLight);
 }
 
 .focus\:text-transparent:focus {
@@ -15925,9 +15902,7 @@ video {
 }
 
 .focus\:text-accentLight:focus {
-  --text-opacity: 1;
-  color: #995A07;
-  color: rgba(153, 90, 7, var(--text-opacity));
+  color: var(--color-accentLight);
 }
 
 .text-opacity-0 {
@@ -20332,9 +20307,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:divide-accentLight > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--divide-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .sm\:divide-solid > :not(template) ~ :not(template) {
@@ -21026,9 +20999,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:bg-accentLight {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -21600,9 +21571,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:bg-accentLight:hover {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -22174,9 +22143,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:bg-accentLight:focus {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .sm\:bg-none {
@@ -22696,8 +22663,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:from-accentLight {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-transparent {
@@ -23181,8 +23148,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:via-accentLight {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:to-transparent {
@@ -23570,7 +23537,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:to-accentLight {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .sm\:hover\:from-transparent:hover {
@@ -24054,8 +24021,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:from-accentLight:hover {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-transparent:hover {
@@ -24539,8 +24506,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:via-accentLight:hover {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:to-transparent:hover {
@@ -24928,7 +24895,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:to-accentLight:hover {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .sm\:focus\:from-transparent:focus {
@@ -25412,8 +25379,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:from-accentLight:focus {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-transparent:focus {
@@ -25897,8 +25864,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:via-accentLight:focus {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:to-transparent:focus {
@@ -26286,7 +26253,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:to-accentLight:focus {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .sm\:bg-opacity-0 {
@@ -26998,9 +26965,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:border-accentLight {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .sm\:hover\:border-transparent:hover {
@@ -27572,9 +27537,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:border-accentLight:hover {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .sm\:focus\:border-transparent:focus {
@@ -28146,9 +28109,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:border-accentLight:focus {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .sm\:border-opacity-0 {
@@ -31944,9 +31905,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:placeholder-accentLight::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .sm\:focus\:placeholder-transparent:focus::placeholder {
@@ -32518,9 +32477,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:placeholder-accentLight:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .sm\:placeholder-opacity-0::placeholder {
@@ -33406,9 +33363,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:text-accentLight {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -33980,9 +33935,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:hover\:text-accentLight:hover {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -34554,9 +34507,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:focus\:text-accentLight:focus {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .sm\:text-opacity-0 {
@@ -38832,9 +38783,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:divide-accentLight > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--divide-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .md\:divide-solid > :not(template) ~ :not(template) {
@@ -39526,9 +39475,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:bg-accentLight {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -40100,9 +40047,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:bg-accentLight:hover {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -40674,9 +40619,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:bg-accentLight:focus {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .md\:bg-none {
@@ -41196,8 +41139,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:from-accentLight {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:via-transparent {
@@ -41681,8 +41624,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:via-accentLight {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:to-transparent {
@@ -42070,7 +42013,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:to-accentLight {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .md\:hover\:from-transparent:hover {
@@ -42554,8 +42497,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:from-accentLight:hover {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-transparent:hover {
@@ -43039,8 +42982,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:via-accentLight:hover {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:to-transparent:hover {
@@ -43428,7 +43371,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:to-accentLight:hover {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .md\:focus\:from-transparent:focus {
@@ -43912,8 +43855,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:from-accentLight:focus {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-transparent:focus {
@@ -44397,8 +44340,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:via-accentLight:focus {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:to-transparent:focus {
@@ -44786,7 +44729,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:to-accentLight:focus {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .md\:bg-opacity-0 {
@@ -45498,9 +45441,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:border-accentLight {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .md\:hover\:border-transparent:hover {
@@ -46072,9 +46013,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:border-accentLight:hover {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .md\:focus\:border-transparent:focus {
@@ -46646,9 +46585,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:border-accentLight:focus {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .md\:border-opacity-0 {
@@ -50444,9 +50381,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:placeholder-accentLight::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .md\:focus\:placeholder-transparent:focus::placeholder {
@@ -51018,9 +50953,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:placeholder-accentLight:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .md\:placeholder-opacity-0::placeholder {
@@ -51906,9 +51839,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:text-accentLight {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .md\:hover\:text-transparent:hover {
@@ -52480,9 +52411,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:hover\:text-accentLight:hover {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .md\:focus\:text-transparent:focus {
@@ -53054,9 +52983,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:focus\:text-accentLight:focus {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .md\:text-opacity-0 {
@@ -57332,9 +57259,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:divide-accentLight > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--divide-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .lg\:divide-solid > :not(template) ~ :not(template) {
@@ -58026,9 +57951,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:bg-accentLight {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -58600,9 +58523,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:bg-accentLight:hover {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -59174,9 +59095,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:bg-accentLight:focus {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .lg\:bg-none {
@@ -59696,8 +59615,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:from-accentLight {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-transparent {
@@ -60181,8 +60100,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:via-accentLight {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:to-transparent {
@@ -60570,7 +60489,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:to-accentLight {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .lg\:hover\:from-transparent:hover {
@@ -61054,8 +60973,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:from-accentLight:hover {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-transparent:hover {
@@ -61539,8 +61458,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:via-accentLight:hover {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:to-transparent:hover {
@@ -61928,7 +61847,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:to-accentLight:hover {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .lg\:focus\:from-transparent:focus {
@@ -62412,8 +62331,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:from-accentLight:focus {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-transparent:focus {
@@ -62897,8 +62816,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:via-accentLight:focus {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:to-transparent:focus {
@@ -63286,7 +63205,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:to-accentLight:focus {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .lg\:bg-opacity-0 {
@@ -63998,9 +63917,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:border-accentLight {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .lg\:hover\:border-transparent:hover {
@@ -64572,9 +64489,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:border-accentLight:hover {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .lg\:focus\:border-transparent:focus {
@@ -65146,9 +65061,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:border-accentLight:focus {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .lg\:border-opacity-0 {
@@ -68944,9 +68857,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:placeholder-accentLight::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .lg\:focus\:placeholder-transparent:focus::placeholder {
@@ -69518,9 +69429,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:placeholder-accentLight:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .lg\:placeholder-opacity-0::placeholder {
@@ -70406,9 +70315,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:text-accentLight {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -70980,9 +70887,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:hover\:text-accentLight:hover {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -71554,9 +71459,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:focus\:text-accentLight:focus {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .lg\:text-opacity-0 {
@@ -75832,9 +75735,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:divide-accentLight > :not(template) ~ :not(template) {
-    --divide-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--divide-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .xl\:divide-solid > :not(template) ~ :not(template) {
@@ -76526,9 +76427,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:bg-accentLight {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -77100,9 +76999,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:bg-accentLight:hover {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -77674,9 +77571,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:bg-accentLight:focus {
-    --bg-opacity: 1;
-    background-color: #995A07;
-    background-color: rgba(153, 90, 7, var(--bg-opacity));
+    background-color: var(--color-accentLight);
   }
 
   .xl\:bg-none {
@@ -78196,8 +78091,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:from-accentLight {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-transparent {
@@ -78681,8 +78576,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:via-accentLight {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:to-transparent {
@@ -79070,7 +78965,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:to-accentLight {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .xl\:hover\:from-transparent:hover {
@@ -79554,8 +79449,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:from-accentLight:hover {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-transparent:hover {
@@ -80039,8 +79934,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:via-accentLight:hover {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:to-transparent:hover {
@@ -80428,7 +80323,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:to-accentLight:hover {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .xl\:focus\:from-transparent:focus {
@@ -80912,8 +80807,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:from-accentLight:focus {
-    --gradient-from-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-from-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-transparent:focus {
@@ -81397,8 +81292,8 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:via-accentLight:focus {
-    --gradient-via-color: #995A07;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(153, 90, 7, 0));
+    --gradient-via-color: var(--color-accentLight);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:to-transparent:focus {
@@ -81786,7 +81681,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:to-accentLight:focus {
-    --gradient-to-color: #995A07;
+    --gradient-to-color: var(--color-accentLight);
   }
 
   .xl\:bg-opacity-0 {
@@ -82498,9 +82393,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:border-accentLight {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .xl\:hover\:border-transparent:hover {
@@ -83072,9 +82965,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:border-accentLight:hover {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .xl\:focus\:border-transparent:focus {
@@ -83646,9 +83537,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:border-accentLight:focus {
-    --border-opacity: 1;
-    border-color: #995A07;
-    border-color: rgba(153, 90, 7, var(--border-opacity));
+    border-color: var(--color-accentLight);
   }
 
   .xl\:border-opacity-0 {
@@ -87444,9 +87333,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:placeholder-accentLight::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .xl\:focus\:placeholder-transparent:focus::placeholder {
@@ -88018,9 +87905,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:placeholder-accentLight:focus::placeholder {
-    --placeholder-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--placeholder-opacity));
+    color: var(--color-accentLight);
   }
 
   .xl\:placeholder-opacity-0::placeholder {
@@ -88906,9 +88791,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:text-accentLight {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -89480,9 +89363,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:hover\:text-accentLight:hover {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -90054,9 +89935,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:focus\:text-accentLight:focus {
-    --text-opacity: 1;
-    color: #995A07;
-    color: rgba(153, 90, 7, var(--text-opacity));
+    color: var(--color-accentLight);
   }
 
   .xl\:text-opacity-0 {

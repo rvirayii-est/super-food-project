@@ -141,7 +141,7 @@ module.exports = {
       // custom
       primary: "var(--color-primary)",
       accent: "var(--color-accent)",
-      accentLight: "var(--color-accentLight", 
+      accentLight: "var(--color-accentLight)", 
     },
     spacing: {
       px: "1px",
