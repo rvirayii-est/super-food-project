@@ -28,9 +28,9 @@ const Sidebar = (props) => {
             to={routeName}
             key={id}
             className="flex space-x-1 p-2
-              transform hover:-translate-y-1 focus:-translate-y-1
-              sm:border-l-4 sm:border-white sm:hover:border-primary sm:hover:text-primary
-              transition duration-300 ease-in-out  
+            sm:border-l-4 sm:border-white sm:hover:border-primary sm:hover:text-primary
+            transition duration-300 ease-in-out  
+            transform hover:-translate-y-1 focus:-translate-y-1
               items-center 
               text-gray-600
               text-sm md:text-lg

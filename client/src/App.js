@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 // customer routes
 import AuthRoute from 'routes/AuthRoute';
 import CustomerRoute from 'routes/CustomerRoute';
+
+import CenteredRoute from 'routes/CenteredRoute';
 // admin routes
 import AdminAuthRoute from 'routes/AdminAuthRoute';
 import DashboardRoute from 'routes/DashboardRoute';
@@ -20,6 +22,9 @@ import SignUp from 'pages/customer/auth/SignUp';
 import AdminSignUp from 'pages/admin/auth/AdminSignUp';
 // landing
 import Landing from 'pages/customer/landing/Landing';
+// centered
+import ForgotPassword from 'pages/customer/auth/ForgotPassword';
+
 
 // SECTION admin
 // auth
@@ -35,8 +40,11 @@ function App() {
     <Provider store={store}>
       <Router>
         <Switch>
+          {/* SECTION Customer */}
           <CustomerRoute exact path="/" component={Landing} />
           <AuthRoute exact path="/register" component={SignUp} />
+          {/* centered */}
+          <CenteredRoute exact path="/forgot-password" component={ForgotPassword} />
 
           {/* SECTION Admin */}
           <AdminAuthRoute exact path="/admin/register" component={AdminSignUp} />
@@ -46,6 +54,8 @@ function App() {
           <DashboardRoute exact path="/admin/users" component={UsersOverview} />
           <DashboardRoute exact path="/admin/deliveries" component={DeliveriesOverview} />
           <DashboardRoute exact path="/admin/merchants" component={MerchantsOverview} />
+
+          
         </Switch>
       </Router>
     </Provider>
