@@ -10850,7 +10850,7 @@ video {
 }
 
 .-m-48 {
-  margin: -12rem;
+  margin: -14rem;
 }
 
 .-m-56 {
@@ -11206,13 +11206,13 @@ video {
 }
 
 .-my-48 {
-  margin-top: -12rem;
-  margin-bottom: -12rem;
+  margin-top: -14rem;
+  margin-bottom: -14rem;
 }
 
 .-mx-48 {
-  margin-left: -12rem;
-  margin-right: -12rem;
+  margin-left: -14rem;
+  margin-right: -14rem;
 }
 
 .-my-56 {
@@ -11790,19 +11790,19 @@ video {
 }
 
 .-mt-48 {
-  margin-top: -12rem;
+  margin-top: -14rem;
 }
 
 .-mr-48 {
-  margin-right: -12rem;
+  margin-right: -14rem;
 }
 
 .-mb-48 {
-  margin-bottom: -12rem;
+  margin-bottom: -14rem;
 }
 
 .-ml-48 {
-  margin-left: -12rem;
+  margin-left: -14rem;
 }
 
 .-mt-56 {
@@ -14065,6 +14065,10 @@ video {
   box-shadow: none;
 }
 
+.shadow-custom {
+  box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+}
+
 .hover\:shadow-xs:hover {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -14105,6 +14109,10 @@ video {
   box-shadow: none;
 }
 
+.hover\:shadow-custom:hover {
+  box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+}
+
 .focus\:shadow-xs:focus {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -14143,6 +14151,10 @@ video {
 
 .focus\:shadow-none:focus {
   box-shadow: none;
+}
+
+.focus\:shadow-custom:focus {
+  box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
 }
 
 .fill-current {
@@ -29455,7 +29467,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:-m-48 {
-    margin: -12rem;
+    margin: -14rem;
   }
 
   .sm\:-m-56 {
@@ -29811,13 +29823,13 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:-my-48 {
-    margin-top: -12rem;
-    margin-bottom: -12rem;
+    margin-top: -14rem;
+    margin-bottom: -14rem;
   }
 
   .sm\:-mx-48 {
-    margin-left: -12rem;
-    margin-right: -12rem;
+    margin-left: -14rem;
+    margin-right: -14rem;
   }
 
   .sm\:-my-56 {
@@ -30395,19 +30407,19 @@ input[type="password"]:focus-within ~ label {
   }
 
   .sm\:-mt-48 {
-    margin-top: -12rem;
+    margin-top: -14rem;
   }
 
   .sm\:-mr-48 {
-    margin-right: -12rem;
+    margin-right: -14rem;
   }
 
   .sm\:-mb-48 {
-    margin-bottom: -12rem;
+    margin-bottom: -14rem;
   }
 
   .sm\:-ml-48 {
-    margin-left: -12rem;
+    margin-left: -14rem;
   }
 
   .sm\:-mt-56 {
@@ -32670,6 +32682,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .sm\:shadow-custom {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .sm\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -32710,6 +32726,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .sm\:hover\:shadow-custom:hover {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .sm\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -32748,6 +32768,10 @@ input[type="password"]:focus-within ~ label {
 
   .sm\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .sm\:focus\:shadow-custom:focus {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
   }
 
   .sm\:fill-current {
@@ -47931,7 +47955,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:-m-48 {
-    margin: -12rem;
+    margin: -14rem;
   }
 
   .md\:-m-56 {
@@ -48287,13 +48311,13 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:-my-48 {
-    margin-top: -12rem;
-    margin-bottom: -12rem;
+    margin-top: -14rem;
+    margin-bottom: -14rem;
   }
 
   .md\:-mx-48 {
-    margin-left: -12rem;
-    margin-right: -12rem;
+    margin-left: -14rem;
+    margin-right: -14rem;
   }
 
   .md\:-my-56 {
@@ -48871,19 +48895,19 @@ input[type="password"]:focus-within ~ label {
   }
 
   .md\:-mt-48 {
-    margin-top: -12rem;
+    margin-top: -14rem;
   }
 
   .md\:-mr-48 {
-    margin-right: -12rem;
+    margin-right: -14rem;
   }
 
   .md\:-mb-48 {
-    margin-bottom: -12rem;
+    margin-bottom: -14rem;
   }
 
   .md\:-ml-48 {
-    margin-left: -12rem;
+    margin-left: -14rem;
   }
 
   .md\:-mt-56 {
@@ -51146,6 +51170,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .md\:shadow-custom {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .md\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -51186,6 +51214,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .md\:hover\:shadow-custom:hover {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .md\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -51224,6 +51256,10 @@ input[type="password"]:focus-within ~ label {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:focus\:shadow-custom:focus {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
   }
 
   .md\:fill-current {
@@ -66407,7 +66443,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:-m-48 {
-    margin: -12rem;
+    margin: -14rem;
   }
 
   .lg\:-m-56 {
@@ -66763,13 +66799,13 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:-my-48 {
-    margin-top: -12rem;
-    margin-bottom: -12rem;
+    margin-top: -14rem;
+    margin-bottom: -14rem;
   }
 
   .lg\:-mx-48 {
-    margin-left: -12rem;
-    margin-right: -12rem;
+    margin-left: -14rem;
+    margin-right: -14rem;
   }
 
   .lg\:-my-56 {
@@ -67347,19 +67383,19 @@ input[type="password"]:focus-within ~ label {
   }
 
   .lg\:-mt-48 {
-    margin-top: -12rem;
+    margin-top: -14rem;
   }
 
   .lg\:-mr-48 {
-    margin-right: -12rem;
+    margin-right: -14rem;
   }
 
   .lg\:-mb-48 {
-    margin-bottom: -12rem;
+    margin-bottom: -14rem;
   }
 
   .lg\:-ml-48 {
-    margin-left: -12rem;
+    margin-left: -14rem;
   }
 
   .lg\:-mt-56 {
@@ -69622,6 +69658,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .lg\:shadow-custom {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .lg\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -69662,6 +69702,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .lg\:hover\:shadow-custom:hover {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .lg\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -69700,6 +69744,10 @@ input[type="password"]:focus-within ~ label {
 
   .lg\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .lg\:focus\:shadow-custom:focus {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
   }
 
   .lg\:fill-current {
@@ -84883,7 +84931,7 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:-m-48 {
-    margin: -12rem;
+    margin: -14rem;
   }
 
   .xl\:-m-56 {
@@ -85239,13 +85287,13 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:-my-48 {
-    margin-top: -12rem;
-    margin-bottom: -12rem;
+    margin-top: -14rem;
+    margin-bottom: -14rem;
   }
 
   .xl\:-mx-48 {
-    margin-left: -12rem;
-    margin-right: -12rem;
+    margin-left: -14rem;
+    margin-right: -14rem;
   }
 
   .xl\:-my-56 {
@@ -85823,19 +85871,19 @@ input[type="password"]:focus-within ~ label {
   }
 
   .xl\:-mt-48 {
-    margin-top: -12rem;
+    margin-top: -14rem;
   }
 
   .xl\:-mr-48 {
-    margin-right: -12rem;
+    margin-right: -14rem;
   }
 
   .xl\:-mb-48 {
-    margin-bottom: -12rem;
+    margin-bottom: -14rem;
   }
 
   .xl\:-ml-48 {
-    margin-left: -12rem;
+    margin-left: -14rem;
   }
 
   .xl\:-mt-56 {
@@ -88098,6 +88146,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .xl\:shadow-custom {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .xl\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -88138,6 +88190,10 @@ input[type="password"]:focus-within ~ label {
     box-shadow: none;
   }
 
+  .xl\:hover\:shadow-custom:hover {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
+  }
+
   .xl\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -88176,6 +88232,10 @@ input[type="password"]:focus-within ~ label {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:focus\:shadow-custom:focus {
+    box-shadow: 19px 0px 28px -3px rgba(0, 0, 0, 0.12);
   }
 
   .xl\:fill-current {

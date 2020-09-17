@@ -13,6 +13,13 @@ module.exports = {
         "-1": "-1",
         "-50": "-9999px",
       },
+      margin: {
+        "-48": "-14rem",
+      },
+      boxShadow: {
+        custom: "19px 0px 28px -3px rgba(0, 0, 0, 0.12)",
+                // 0 10px 15px -3px
+      },
     },
     screens: {
       sm: "640px",
@@ -141,7 +148,7 @@ module.exports = {
       // custom
       primary: "var(--color-primary)",
       accent: "var(--color-accent)",
-      accentLight: "var(--color-accentLight)", 
+      accentLight: "var(--color-accentLight)",
     },
     spacing: {
       px: "1px",

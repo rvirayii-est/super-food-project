@@ -9,6 +9,7 @@ import AddressSearch from "components/common/AddressSearch";
 
 const SectionOne = (props) => {
   return (
+    <>
     <div className="relative flex flex-col md:flex-row justify-center md:items-center md:justify-start h-screen">
       <div className="md:max-w-xl xl:max-w-full md:ml-16 md:-mt-16 lg:ml-32 xl:ml-64 xl:-mt-16">
         <div className="text-primary m-4 -mt-24 md:mt-0 mb-12">
@@ -31,6 +32,8 @@ const SectionOne = (props) => {
         />
       </div>
     </div>
+      <div className="h-32 w-full"></div>
+      </>
   );
 };
 
