@@ -36,6 +36,10 @@ import UsersOverview from 'pages/admin/dashboard/overview/UsersOverview';
 import DeliveriesOverview from 'pages/admin/dashboard/overview/DeliveriesOverview';
 import MerchantsOverview from 'pages/admin/dashboard/overview/MerchantsOverview';
 
+
+// SECTION common
+import PageNotFound from 'pages/common/PageNotFound';
+
 function App() {
   return (
     <Provider store={store}>
@@ -57,6 +61,7 @@ function App() {
           <DashboardRoute exact path="/admin/deliveries" component={DeliveriesOverview} />
           <DashboardRoute exact path="/admin/merchants" component={MerchantsOverview} />
 
+          <CenteredRoute component={PageNotFound} />
           
         </Switch>
       </Router>

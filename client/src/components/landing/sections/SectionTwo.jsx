@@ -9,6 +9,8 @@ import { OFFERS } from "data/offers";
 
 // svg
 import { ReactComponent as Chef } from "assets/customer/svg/chef.svg";
+import { Link } from "react-router-dom";
+import { Button } from "components/common/Button";
 
 const SectionTwo = (props) => {
   return (
@@ -21,7 +23,7 @@ const SectionTwo = (props) => {
       {/* <div className="bg-pink-500 xs:bg-blue-400 sm:bg-purple-400 md:bg-green-500 lg:bg-orange-400 xl:bg-indigo-400">
         breakpoint-(pink-default//blue-xs//purple-sm//green-md//lg-orange//xl-indigo)
       </div> */}
-      <div className="flex-col md:flex md:flex-row md:items-center md:px-16">
+      <div className="flex-col md:flex md:flex-row md:items-center md:px-16 xl:px-32">
         <div className="p-8 sm:flex sm:justify-center">
           <Chef className="w-full h-full sm:w-1/2 sm:h-1/2 md:w-full md:h-full" />
         </div>
@@ -40,6 +42,11 @@ const SectionTwo = (props) => {
             tincidunt id diam non consectetur. Quisque pretium est sed sapien
             ultricies.
           </p>
+          <Link className="inline-block my-3" to="/">
+            <Button category="accent">
+              <div className="text-primary text-2xl  uppercase">Get Started</div>
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
