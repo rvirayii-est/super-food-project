@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
 // svg
 import { ReactComponent as LogoSVG } from "assets/customer/svg/temporary_logo.svg";
@@ -44,35 +44,46 @@ const Navbar = ({ toggleCustomerNavbar, open }) => {
             />
           </svg>
         </div>
-        <div className="hidden md:flex items-center">
-          <Link to="/register" className="w-64">
+        <div className="hidden md:flex items-center outline-none">
+          <Link
+            to="/register"
+            className="w-64 
+            outline-none transition duration-300 transform 
+          hover:text-accent hover:underline hover:-translate-y-1
+          focus:text-accent focus:underline focus:-translate-y-1
+          "
+          >
             Create account
           </Link>
-          <Button category="accent" type="submit">
-            <div className="text-primary text-base xl:text-xl">LOGIN</div>
-          </Button>
+          <Link
+            to="/login"
+            className="w-full outline-none transition duration-300 transform hover:-translate-y-1 focus:-translate-y-1"
+          >
+            <Button category="accent">
+              <div className="text-primary text-base xl:text-xl">LOGIN</div>
+            </Button>
+          </Link>
         </div>
       </div>
 
-
       {open && (
-          <div className="ease-in-out duration-300 transition fade" ref={openDropdownRef}>
-            <div className="flex flex-col">
-              <Link
-                to="/register"
-                className="py-2 rounded-lg text-center shadow-xl bg-gray-200 w-full"
-              >
-                Create account
-              </Link>
-              <Button category="accent" type="submit">
-                <div className="text-primary text-base xl:text-xl">LOGIN</div>
-              </Button>
-            </div>
-            
+        <div
+          className="ease-in-out duration-300 transition fade"
+          ref={openDropdownRef}
+        >
+          <div className="flex flex-col">
+            <Link
+              to="/register"
+              className="py-2 rounded-lg text-center shadow-xl bg-gray-200 w-full"
+            >
+              Create account
+            </Link>
+            <Button category="accent" type="submit">
+              <div className="text-primary text-base xl:text-xl">LOGIN</div>
+            </Button>
           </div>
-        )}
-
-
+        </div>
+      )}
     </div>
   );
 };
@@ -83,6 +94,6 @@ Navbar.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  open: state.toggle.open
-})
+  open: state.toggle.open,
+});
 export default connect(mapStateToProps, { toggleCustomerNavbar })(Navbar);

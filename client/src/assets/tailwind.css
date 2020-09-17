@@ -55,6 +55,10 @@ input[type="password"]:focus-within ~ label {
   @apply text-accent;
 }
 
+input[type="checkbox"] {
+  @apply text-accent;
+}
+
 .search-address-input:focus-within ~ label,
 .search-address-input:not(:placeholder-shown) ~ label {
   @apply transform;

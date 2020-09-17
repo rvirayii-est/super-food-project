@@ -58,7 +58,7 @@ const SignUp = ({ register, isAuthenticated }) => {
         <SignUpSVG />
       </div>
       <div className="md:w-2/6">
-        <h1 className="text-3xl xl:text-4xl text-primary">Sign Up to Food Delivery App</h1>
+        <h1 className="text-3xl xl:text-4xl text-primary">Sign Up to FoodKart</h1>
         <Button category="google" type="submit">
           <InlineIcon className="w-6 h-6" icon={bxlGoogle} />
           <div className="text-white text-base xl:text-xl">Sign Up with Google</div>
@@ -68,7 +68,9 @@ const SignUp = ({ register, isAuthenticated }) => {
           <InlineIcon className="w-6 h-6" icon={bxlFacebookSquare} />
           <div className="text-white text-base xl:text-xl">Sign Up with Facebook</div>
         </Button>
-        <OrLine />
+        <div className="mt-8">
+          <OrLine />
+        </div>
 
         <form onSubmit={handleSubmit}>
           <FormInput

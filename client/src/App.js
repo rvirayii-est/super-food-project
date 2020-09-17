@@ -19,7 +19,7 @@ import DashboardRoute from 'routes/DashboardRoute';
 // SECTION customer
 // auth
 import SignUp from 'pages/customer/auth/SignUp';
-import AdminSignUp from 'pages/admin/auth/AdminSignUp';
+import Login from 'pages/customer/auth/Login';
 // landing
 import Landing from 'pages/customer/landing/Landing';
 // centered
@@ -28,6 +28,7 @@ import ForgotPassword from 'pages/customer/auth/ForgotPassword';
 
 // SECTION admin
 // auth
+import AdminSignUp from 'pages/admin/auth/AdminSignUp';
 import AdminLogin from 'pages/admin/auth/AdminLogin';
 // dashboard overviews
 import DashboardOverview from 'pages/admin/dashboard/overview/DashboardOverview';
@@ -43,6 +44,7 @@ function App() {
           {/* SECTION Customer */}
           <CustomerRoute exact path="/" component={Landing} />
           <AuthRoute exact path="/register" component={SignUp} />
+          <AuthRoute exact path="/login" component={Login} />
           {/* centered */}
           <CenteredRoute exact path="/forgot-password" component={ForgotPassword} />
 
