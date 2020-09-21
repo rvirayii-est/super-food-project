@@ -4,12 +4,14 @@ import React from "react";
 // components
 import SectionOne from "components/landing/sections/SectionOne";
 import SectionTwo from "components/landing/sections/SectionTwo";
+import SectionThree from "components/landing/sections/SectionThree";
 
 const Landing = (props) => {
   return (
     <>
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </>
   );
 };

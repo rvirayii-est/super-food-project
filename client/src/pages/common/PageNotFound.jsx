@@ -1,31 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 // import PropTypes from 'prop-types'
 
 // svg
 import { ReactComponent as CrackedEgg } from "assets/common/svg/cracked_egg.svg";
 
 // components
-import FormInput from "components/common/FormInput";
-import { AuthButton } from "components/common/buttons/AuthButton";
 import { Link } from "react-router-dom";
 import { Button } from "components/common/Button";
 
 // icons
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import arrowLeftAlt from '@iconify/icons-dashicons/arrow-left-alt';
 
 const PageNotFound = (props) => {
-  const [email, setEmail] = useState("");
-
-  const handleChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log(email);
-    console.log("Email has been sent to your email address.");
-  };
 
   return (
     <div

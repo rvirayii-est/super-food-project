@@ -20,9 +20,6 @@ const SectionTwo = (props) => {
           <Offers offers={OFFERS} />
         </div>
       </div>
-      {/* <div className="bg-pink-500 xs:bg-blue-400 sm:bg-purple-400 md:bg-green-500 lg:bg-orange-400 xl:bg-indigo-400">
-        breakpoint-(pink-default//blue-xs//purple-sm//green-md//lg-orange//xl-indigo)
-      </div> */}
       <div className="flex-col md:flex md:flex-row md:items-center md:px-16 xl:px-32">
         <div className="p-8 sm:flex sm:justify-center">
           <Chef className="w-full h-full sm:w-1/2 sm:h-1/2 md:w-full md:h-full" />

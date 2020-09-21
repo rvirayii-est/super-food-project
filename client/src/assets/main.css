@@ -19161,6 +19161,10 @@ input[type="password"]:focus-within ~ label {
   color: var(--color-accent);
 }
 
+input[type="checkbox"] {
+  color: var(--color-accent);
+}
+
 .search-address-input:focus-within ~ label,
 .search-address-input:not(:placeholder-shown) ~ label {
   --transform-translate-x: 0;
