@@ -1,6 +1,12 @@
 import React from "react";
 
-const FormInput = ({ addStyles, handleChange, label, ...props }) => {
+const FormInput = ({
+  addStyles,
+  labelAddStyles,
+  handleChange,
+  label,
+  ...props
+}) => {
   return (
     <div className="relative my-4 mt-8 focus-within:border-blue-500">
       <input
@@ -11,7 +17,7 @@ const FormInput = ({ addStyles, handleChange, label, ...props }) => {
       />
       <label
         htmlFor={props.id}
-        className="absolute top-0 left-0 -z-1 mt-2 ml-2 origin-0 duration-500 text-gray-500"
+        className={`absolute top-0 left-0 mt-2 ml-2 origin-0 duration-500 text-gray-500 ${labelAddStyles}`}
       >
         {label}
       </label>

@@ -1,8 +1,8 @@
 /* In your CSS */
 
 :root {
-  --color-primary: #412D18;
-  --color-accent: #FDBD10;
+  --color-primary: #412d18;
+  --color-accent: #fdbd10;
   /* ... */
 }
 
@@ -19159,6 +19159,13 @@ input[type="text"]:focus-within ~ label,
 input[type="email"]:focus-within ~ label,
 input[type="password"]:focus-within ~ label {
   color: var(--color-accent);
+}
+
+input.input-accent:not(:placeholder-shown) ~ label,
+input.input-accent:focus-within ~ label {
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
 }
 
 input[type="checkbox"] {

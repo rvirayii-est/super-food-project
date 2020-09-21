@@ -14,7 +14,7 @@ import { Button } from "components/common/buttons/Button";
 
 const SectionTwo = (props) => {
   return (
-    <div className="h-full lg:h-screen bg-orange-200">
+    <div className="h-full lg:pb-12 bg-orange-200">
       <div className="w-full flex items-center justify-center">
         <div className="sm:p-16 w-full lg:w-11/12 xl:w-9/12 lg:-mt-56 xl:-mt-48">
           <Offers offers={OFFERS} />

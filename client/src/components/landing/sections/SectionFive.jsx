@@ -15,18 +15,19 @@ const SectionFive = (props) => {
     console.log("Email for Newletter Subscription Sent");
   };
   return (
-    <div className="flex-col items-center justify-center text-center p-12">
-      <div className="bg-pink-500 xs:bg-blue-400 sm:bg-purple-400 md:bg-green-500 lg:bg-orange-400 xl:bg-indigo-400">
-        breakpoint-(pink-default//blue-xs//purple-sm//green-md//lg-orange//xl-indigo)
-      </div>
+    <div className="bg-orange-200 flex-col items-center justify-center text-center p-12">
       <h2 className="text-5xl text-primary font-medium">Stay in touch</h2>
       <div className="text-2xl text-primary">
         Subscribe to our newsletter so we can send you offers and discounts!
       </div>
-      <form className="flex flex-col sm:items-center  sm:flex-row lg:w-3/4 xl:w-1/2 lg:justify-center lg:mx-auto" onSubmit={handleSubmit}>
+      <form
+        className="flex flex-col sm:items-center  sm:flex-row lg:w-3/4 xl:w-1/2 lg:justify-center lg:mx-auto"
+        onSubmit={handleSubmit}
+      >
         <div className="flex-1">
           <FormInput
             addStyles="bg-white input-accent"
+            labelAddStyles="z-10"
             type="email"
             value={email}
             name="email"
