@@ -1,13 +1,13 @@
 import React from "react";
 
-const FormInput = ({ handleChange, label, ...props }) => {
+const FormInput = ({ addStyles, handleChange, label, ...props }) => {
   return (
     <div className="relative my-4 mt-8 focus-within:border-blue-500">
       <input
         {...props}
         placeholder=" "
         onChange={(e) => handleChange(e)}
-        className="  block border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight appearance-none focus:border-accent focus:outline-none bg-transparent"
+        className={`block border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight appearance-none focus:border-accent focus:outline-none bg-transparent ${addStyles}`}
       />
       <label
         htmlFor={props.id}

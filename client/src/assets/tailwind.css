@@ -1,7 +1,7 @@
 /* In your CSS */
 :root {
-  --color-primary: #412D18;
-  --color-accent: #FDBD10;
+  --color-primary: #412d18;
+  --color-accent: #fdbd10;
   /* ... */
 }
 
@@ -47,6 +47,11 @@ input[type="password"]:not(:placeholder-shown) ~ label {
   @apply -translate-x-2;
   transform: translateY(-2rem);
   @apply text-accent;
+}
+
+input.input-accent:not(:placeholder-shown) ~ label,
+input.input-accent:focus-within ~ label {
+  @apply text-black;
 }
 
 input[type="text"]:focus-within ~ label,

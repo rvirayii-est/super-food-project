@@ -11,7 +11,9 @@ import bxlPlayStore from "@iconify/icons-bx/bxl-play-store";
 const SectionFour = (props) => {
   return (
     <div className="bg-gray-200 p-12 flex-col items-center justify-center">
-      <h2 className="text-4xl md:text-5xl font-medium">Download the food app you love.</h2>
+      <h2 className="text-4xl md:text-5xl font-medium">
+        Download the food app you love.
+      </h2>
       <h4 className="text-xl md:text-2xl text-gray-600 my-4">
         Food app in your pocket. Find the best food to suit your cravings. Go
         ahead, download now.
