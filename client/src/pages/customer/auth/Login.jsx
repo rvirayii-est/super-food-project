@@ -12,7 +12,7 @@ import bxlFacebookSquare from "@iconify/icons-bx/bxl-facebook-square";
 // components
 import { OrLine } from "components/OrLine";
 import FormInput from "components/common/FormInput";
-import { Button } from "components/common/Button";
+import { Button } from "components/common/buttons/Button";
 
 // route
 import { Link, Redirect } from "react-router-dom";

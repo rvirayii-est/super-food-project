@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 // components
 import { AddressFormInput } from "./FormInput";
-import { Button } from "./Button";
+import { Button } from "./buttons/Button";
 
 const AddressSearch = (props) => {
   const [address, setAddress] = useState("");

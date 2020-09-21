@@ -8,7 +8,7 @@ import { ReactComponent as LogoSVG } from "assets/customer/svg/temporary_logo.sv
 import { Link } from "react-router-dom";
 
 // components
-import { Button } from "components/common/Button";
+import { Button } from "components/common/buttons/Button";
 
 // redux
 import { connect } from "react-redux";

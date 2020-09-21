@@ -10,7 +10,7 @@ import { OFFERS } from "data/offers";
 // svg
 import { ReactComponent as Chef } from "assets/customer/svg/chef.svg";
 import { Link } from "react-router-dom";
-import { Button } from "components/common/Button";
+import { Button } from "components/common/buttons/Button";
 
 const SectionTwo = (props) => {
   return (

@@ -6,7 +6,7 @@ import { ReactComponent as CrackedEgg } from "assets/common/svg/cracked_egg.svg"
 
 // components
 import { Link } from "react-router-dom";
-import { Button } from "components/common/Button";
+import { Button } from "components/common/buttons/Button";
 
 // icons
 import { Icon } from '@iconify/react';
