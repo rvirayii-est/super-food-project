@@ -19161,12 +19161,10 @@ input[type="password"]:focus-within ~ label {
   color: var(--color-accent);
 }
 
-input.input-accent:not(:placeholder-shown) ~ label,
+/* input.input-accent:not(:placeholder-shown) ~ label,
 input.input-accent:focus-within ~ label {
-  --text-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--text-opacity));
-}
+  @apply text-black;
+} */
 
 input[type="checkbox"] {
   color: var(--color-accent);

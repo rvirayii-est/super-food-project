@@ -39,6 +39,9 @@ import MerchantsOverview from 'pages/admin/dashboard/overview/MerchantsOverview'
 
 // SECTION common
 import PageNotFound from 'pages/common/PageNotFound';
+import AdminProfile from 'pages/admin/dashboard/profile/AdminProfile';
+import PhoneVerification from 'pages/common/PhoneVerification';
+import UpdateMobileNumber from 'pages/common/UpdateMobileNumber';
 
 function App() {
   return (
@@ -60,7 +63,13 @@ function App() {
           <DashboardRoute exact path="/admin/users" component={UsersOverview} />
           <DashboardRoute exact path="/admin/deliveries" component={DeliveriesOverview} />
           <DashboardRoute exact path="/admin/merchants" component={MerchantsOverview} />
+          {/* profile */}
+          <DashboardRoute exact path="/admin/profile/me" component={AdminProfile} />
 
+          {/* common */}
+          <CenteredRoute exact path="/verify-phone" component={PhoneVerification} />
+          <CenteredRoute exact path="/update-phone" component={UpdateMobileNumber} />
+          {/* not found */}
           <CenteredRoute component={PageNotFound} />
           
         </Switch>

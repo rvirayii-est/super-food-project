@@ -8,18 +8,18 @@ export const PROFILE_DROPDOWN_ROUTES = [
     id: 1,
     icon: bxsUser,
     name: "My Profile",
-    routeName: "/profile/me",
+    routeName: "/admin/profile/me",
   },
   {
     id: 2,
     icon: bxsCog,
     name: "Settings",
-    routeName: "/profile/me",
+    routeName: "/admin/settings",
   },
   {
     id: 3,
     icon: bxLogOut,
     name: "Logout",
-    routeName: "/profile/me",
+    routeName: "/logout",
   },
 ];
