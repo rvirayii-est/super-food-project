@@ -7,7 +7,7 @@ const path = require("path");
 //const cors = require("cors");
 //const Seed = require("./seed");
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 app.use(cors());
@@ -33,6 +33,6 @@ if (process.env.NODE_ENV === "production") {
 	});
 }
 //App listen
-app.listen(PORT || 5000, () => {
-	console.log(`Server started on port`);
+app.listen(PORT, () => {
+	console.log(`Server started on port ${PORT}`);
 });

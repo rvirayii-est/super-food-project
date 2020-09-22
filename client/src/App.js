@@ -1,51 +1,81 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import routes from "./routes";
-import withTracker from "./withTracker";
+import React from 'react';
 
 // redux
-import { Provider } from "react-redux";
-import store from "./store/store";
+import { Provider } from 'react-redux';
+import store from 'store/store';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-// import "./shard-styles/shards-dashboards.css";
-import "./shard-styles/scss/main.scss";
+// route
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
+// customer routes
+import AuthRoute from 'routes/AuthRoute';
+import CustomerRoute from 'routes/CustomerRoute';
 
-// redux
-import { loadUser } from "./store/actions/auth.action";
-import setAuthToken from "./store/utilities/setAuthToken";
+import CenteredRoute from 'routes/CenteredRoute';
+// admin routes
+import AdminAuthRoute from 'routes/AdminAuthRoute';
+import DashboardRoute from 'routes/DashboardRoute';
 
-if (localStorage.token) {
-  setAuthToken(localStorage.token);
-}
+// pages
+// SECTION customer
+// auth
+import SignUp from 'pages/customer/auth/SignUp';
+import Login from 'pages/customer/auth/Login';
+// landing
+import Landing from 'pages/customer/landing/Landing';
+// centered
+import ForgotPassword from 'pages/customer/auth/ForgotPassword';
 
-export default () => {
-  useEffect(() => {
-    store.dispatch(loadUser);
-  }, []);
+
+// SECTION admin
+// auth
+import AdminSignUp from 'pages/admin/auth/AdminSignUp';
+import AdminLogin from 'pages/admin/auth/AdminLogin';
+// dashboard overviews
+import DashboardOverview from 'pages/admin/dashboard/overview/DashboardOverview';
+import UsersOverview from 'pages/admin/dashboard/overview/UsersOverview';
+import DeliveriesOverview from 'pages/admin/dashboard/overview/DeliveriesOverview';
+import MerchantsOverview from 'pages/admin/dashboard/overview/MerchantsOverview';
+
+
+// SECTION common
+import PageNotFound from 'pages/common/PageNotFound';
+import AdminProfile from 'pages/admin/dashboard/profile/AdminProfile';
+import PhoneVerification from 'pages/common/PhoneVerification';
+import UpdateMobileNumber from 'pages/common/UpdateMobileNumber';
+
+function App() {
   return (
     <Provider store={store}>
-      <Router basename={process.env.REACT_APP_BASENAME || ""}>
-        <div>
-          {routes.map((route, index) => {
-            return (
-              <Route
-                key={index}
-                path={route.path}
-                exact={route.exact}
-                component={withTracker(props => {
-                  return (
-                    <route.layout {...props}>
-                      <route.component {...props} />
-                    </route.layout>
-                  );
-                })}
-              />
-            );
-          })}
-        </div>
+      <Router>
+        <Switch>
+          {/* SECTION Customer */}
+          <CustomerRoute exact path="/" component={Landing} />
+          <AuthRoute exact path="/register" component={SignUp} />
+          <AuthRoute exact path="/login" component={Login} />
+          {/* centered */}
+          <CenteredRoute exact path="/forgot-password" component={ForgotPassword} />
+
+          {/* SECTION Admin */}
+          <AdminAuthRoute exact path="/admin/register" component={AdminSignUp} />
+          <AdminAuthRoute exact path="/admin/login" component={AdminLogin} />
+          {/* overviews */}
+          <DashboardRoute exact path="/admin/dashboard" component={DashboardOverview} />
+          <DashboardRoute exact path="/admin/users" component={UsersOverview} />
+          <DashboardRoute exact path="/admin/deliveries" component={DeliveriesOverview} />
+          <DashboardRoute exact path="/admin/merchants" component={MerchantsOverview} />
+          {/* profile */}
+          <DashboardRoute exact path="/admin/profile/me" component={AdminProfile} />
+
+          {/* common */}
+          <CenteredRoute exact path="/verify-phone" component={PhoneVerification} />
+          <CenteredRoute exact path="/update-phone" component={UpdateMobileNumber} />
+          {/* not found */}
+          <CenteredRoute component={PageNotFound} />
+          
+        </Switch>
       </Router>
     </Provider>
   );
-};
+}
+
+export default App;
